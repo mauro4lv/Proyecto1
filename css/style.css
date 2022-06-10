@@ -218,26 +218,6 @@ footer {
 
 }
 
-/*media queries*/
-@media screen and (max-width: 925px) {
-    
-    main {
-        justify-content: space-between;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        display: grid;
-        justify-items: stretch;
-        align-items: stretch;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%; 
-        grid-template-areas:"contenido"
-                            "contenido2"
-                            "acciones" 
-                            "acciones2";
-     }
-
-}
 
 /*Desktop*/
 @media screen and (min-width: 720px) {
@@ -272,7 +252,6 @@ footer {
         align-items: center;
         overflow: hidden;
       
-
 }
 
     .contenido2 {
