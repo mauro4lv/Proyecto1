@@ -6,7 +6,7 @@
 }
 
 h2 {
-    color: yellow;
+    color: gold;
     font-family: 'koulen', cursive;
 }
 
@@ -26,78 +26,6 @@ body {
 
 
 
-header {
-    background-color: yellow;
-    grid-area: header header;
-    padding-right: 900px;
-    width: 100%;
-}
-
-.titulo {
-    text-align: center;
-
-    color: black;
-    font-family: 'koulen', cursive;
-    width: 100%;
-    text-align: center;
-
-}
-
-.menu{
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    color: black;
-    font-family: 'koulen', cursive;
-    display: flexbox;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    width: 100%;
-
-}
-
-
-
-nav li{
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-nav li:hover{
-    background-color: grey;
-    transform: scale(1.1,1.1);
-    transition: 1s;
-}
-
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    align-items: center;
-
-}
-
-main {
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    justify-items: stretch;
-    align-items: stretch;
-    grid-template-columns: 180px, 180px, 180px, 180px;
-    
-    grid-template-rows: 25% 25% 25% 25%; 
-    grid-template-areas:"contenido"
-                        "contenido2"
-                        "acciones" 
-                        "acciones2";
-
-}
 
 .contenido {
     display: flexbox;
@@ -109,7 +37,7 @@ main {
     margin: 20px;
     min-width: 50px;
     margin-bottom: 0px;
-    background-color: yellow;
+    background-color: gold;
     margin: 20px;
     align-items: center;
     overflow: hidden;
@@ -132,7 +60,7 @@ main {
     margin: 20px;
     min-width: 50px;
     margin-bottom: 0px;
-    background-color: yellow;
+    background-color: gold;
     margin: 20px;
     align-items: center;
     overflow: hidden;
@@ -148,7 +76,7 @@ main {
 .acciones {
     display: flexbox;
     grid-area: acciones;
-    color: yellow;
+    color: gold;
     text-align: center;
     background-color: black;
     font-family: 'koulen', cursive;
@@ -171,7 +99,7 @@ main {
 .acciones2 {
     display: flexbox;
     grid-area: acciones2;
-    color: yellow;
+    color: gold;
     text-align: center;
     background-color: black;
     font-family: 'koulen', cursive;
@@ -196,7 +124,7 @@ footer {
     display: block;
     grid-area: footer;
     padding: 1em;
-    color: yellow;
+    color: gold;
     font-family: 'koulen', cursive;
     position: absolute;
     bottom: 0px;
@@ -247,7 +175,7 @@ footer {
         margin: 20px;
         min-width: 50px;
         margin-bottom: 0px;
-        background-color: yellow;
+        background-color: gold;
         margin: 20px;
         align-items: center;
         overflow: hidden;
@@ -264,9 +192,9 @@ footer {
         margin: 20px;
         min-width: 50px;
         margin-bottom: 0px;
-        background-color: yellow;
+        background-color: gold;
         margin: 20px;
         align-items: center;
         overflow: hidden;
  
-    }
+}
