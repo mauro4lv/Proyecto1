@@ -1,0 +1,29 @@
+@import '../parciles/variables';
+
+
+.titulo {
+    display: inline-flex;
+    background-color: $color-letra;
+    padding-right: 900px;
+    width: 100%;
+    font-family: 'koulen', cursive;
+    text-align: center;
+    padding-right: 900px;
+}
+
+.menu{
+    background-color: $color-letra;
+    width: 100%;
+    li {
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-direction: row;
+    font-family: 'koulen', cursive;
+    }
+    
+    &:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s; 
+    }   
+}

@@ -24,8 +24,59 @@ body {
     
     }
 
-
-
+    header {
+        background-color: yellow;
+        grid-area: header header;
+        padding-right: 900px;
+        width: 100%;
+    }
+    
+    .titulo {
+        text-align: center;
+        color: black;
+        font-family: 'koulen', cursive;
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .menu{
+        width: 100%;
+        list-style: none;
+        text-align: center;
+        color: black;
+        font-family: 'koulen', cursive;
+        display: flexbox;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    
+    
+    nav li{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    nav li:hover{
+        background-color: grey;
+        transform: scale(1.1,1.1);
+        transition: 1s;
+    }
+    
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        align-items: center;
+    
+    }
 
 .contenido {
     display: flexbox;

@@ -1,0 +1,101 @@
+/*Variables*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Variables*/
+.titulo {
+  display: inline-flex;
+  background-color: gold;
+  padding-right: 900px;
+  width: 100%;
+  font-family: "koulen", cursive;
+  text-align: center;
+  padding-right: 900px;
+}
+
+.menu {
+  background-color: gold;
+  width: 100%;
+}
+.menu li {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-direction: row;
+  font-family: "koulen", cursive;
+}
+.menu:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  color: black;
+  font-family: "koulen", cursive;
+  position: relative;
+  padding-bottom: 2em;
+  max-width: 100%;
+}
+
+.contenido {
+  background-color: gold;
+  padding: 25px;
+  margin: 20px;
+  overflow: hidden;
+}
+.contenido:hover {
+  transform: scale(1.1, 1.1);
+  transform: 1S;
+}
+
+.contenido2 {
+  background-color: gold;
+  padding: 25px;
+  margin: 20px;
+  overflow: hidden;
+}
+.contenido2:hover {
+  transform: scale(1.1, 1.1);
+  transform: 1S;
+}
+
+.acciones {
+  background-color: gold;
+  padding: 25px;
+  margin: 20px;
+  overflow: hidden;
+}
+.acciones:hover {
+  transform: scale(1.1, 1.1);
+  transform: 1S;
+}
+
+.acciones2 {
+  background-color: gold;
+  padding: 25px;
+  margin: 20px;
+  overflow: hidden;
+}
+.acciones2:hover {
+  transform: scale(1.1, 1.1);
+  transform: 1S;
+}
+
+footer {
+  display: block;
+  grid-area: footer;
+  padding: 1em;
+  color: gold;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  padding-left: 5px;
+}/*# sourceMappingURL=main.css.map */
