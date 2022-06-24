@@ -1,0 +1,25 @@
+@import "../parciles/maps";
+
+@mixin texto ($color, $size, $background) {
+    color: $color;
+    background-color: $background;    
+    padding: 5px;
+    text-align: center;
+    font-size: $size;
+}
+
+.contenido {
+    @include texto (black, 1.25rem, gold) ;
+}
+
+.contenido2 {
+    @include texto (black, 1.25rem, gold);
+}
+
+.acciones {
+    @include texto (black, 1.25rem, grey);
+}
+
+.acciones2 {
+    @include texto (black, 1.25rem, grey);
+}

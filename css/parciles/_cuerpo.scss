@@ -1,9 +1,12 @@
+@import '../parciles/variables';
+@import "../parciles/maps";
+
 body {
-    background-color: black;
+    background-color: map-get($colores, "secundario");
     width: 100%;
     list-style: none;
     text-align: center;
-    color: black;
+    color: map-get($colores, "primario");
     font-family: 'koulen', cursive;
     position: relative;
     padding-bottom: 2em;
@@ -21,10 +24,7 @@ body {
     }    
  }
 .contenido2 {
-    background-color: $color-letra;
-    padding: 25px;
-    margin: 20px;
-    overflow: hidden;
+    @extend .contenido;
     &:hover{
         transform: scale(1.1,1.1);
         transform: 1S;
@@ -41,10 +41,7 @@ body {
      }
  }
 .acciones2 {
-    background-color: $color-letra;
-    padding: 25px;
-    margin: 20px;
-    overflow: hidden;
+    @extend .acciones;
     &:hover{
         transform: scale(1.1,1.1);
         transform: 1S;
