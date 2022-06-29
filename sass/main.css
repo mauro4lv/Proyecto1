@@ -120,4 +120,53 @@ footer {
   font-size: 1.25rem;
 }
 
-/*paleta de colores*//*# sourceMappingURL=main.css.map */
+/*paleta de colores*/
+/*mediaqueries*/
+/*Desktop*/
+@media screen and (min-width: 720px) {
+  main {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "contenido acciones" "contenido2 acciones2";
+  }
+
+  .contenido, .contenido2 {
+    display: grid;
+    grid-area: contenido;
+    color: black;
+    text-align: left;
+    font-family: "koulen", cursive;
+    padding: 25px;
+    margin: 20px;
+    min-width: 50px;
+    margin-bottom: 0px;
+    background-color: gold;
+    margin: 20px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .contenido2 {
+    display: grid;
+    grid-area: contenido2;
+    color: black;
+    text-align: left;
+    font-family: "koulen", cursive;
+    padding: 25px;
+    margin: 20px;
+    min-width: 50px;
+    margin-bottom: 0px;
+    background-color: gold;
+    margin: 20px;
+    align-items: center;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=main.css.map */
