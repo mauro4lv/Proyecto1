@@ -43,6 +43,7 @@ body {
   max-width: 100%;
 }
 
+/* problema con el hover, no respeta los tiempos del transform*/
 .contenido, .contenido2 {
   background-color: gold;
   padding: 25px;
