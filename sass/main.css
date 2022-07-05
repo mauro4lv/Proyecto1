@@ -122,6 +122,22 @@ footer {
 
 /*paleta de colores*/
 /*mediaqueries*/
+/*Mobile*/
+@media screen and (max-width: 350px) {
+  main {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "contenido" "contenido2" "acciones" "acciones2";
+  }
+}
 /*Desktop*/
 @media screen and (min-width: 720px) {
   main {
@@ -168,5 +184,21 @@ footer {
     margin: 20px;
     align-items: center;
     overflow: hidden;
+  }
+}
+/*Tablet*/
+@media screen and (min-width: 480px) {
+  main {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "contenido" "contenido2" "acciones" "acciones2";
   }
 }/*# sourceMappingURL=main.css.map */
